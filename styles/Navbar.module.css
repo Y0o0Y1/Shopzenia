@@ -1,0 +1,13 @@
+.nav {
+    margin: 10px auto 80px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom: 1px solid #ddd;
+    gap: 10px;
+}
+
+.logo {
+    margin-right: auto;
+}

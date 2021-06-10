@@ -1,0 +1,14 @@
+.product {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-items: center;
+}
+
+.cartCard {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-content: center;
+    gap: 20px;
+    justify-items: center;
+}

@@ -1,0 +1,17 @@
+.cart {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
+    align-items: center;
+    justify-content: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+    gap: 50px;
+
+}
+
+.cart h2 {
+    justify-self: center;
+}
