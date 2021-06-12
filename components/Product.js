@@ -16,7 +16,7 @@ const Product = ({ imgSrc, title, price, cartToggler, quantity }) => {
     console.log(cart.lastIndexOf(product));
     cart.splice(indexOfItemToRemove, 1);
     setCart((curr) => [...curr]);
-    cart.sort()
+    cart.sort();
   };
   return cartToggler ? (
     <div className={styles.cartCard}>
